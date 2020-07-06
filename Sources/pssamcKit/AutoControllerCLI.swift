@@ -10,7 +10,8 @@ public struct AutoControllerCLI {
         let cli = CLI(name: name,
                       version: version,
                       description: description,
-                      commands: [BerryFarmerCommand()])
+                      commands: [BerryFarmerCommand(),
+                                 TurboACommand()])
 
         return cli
     }
