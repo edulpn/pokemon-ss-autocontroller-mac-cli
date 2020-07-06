@@ -23,6 +23,8 @@ class BerryFarmerCommand: Command {
     }
 
     var name: String = "berryfarmer"
+    var description: String = "Berry Farmer bot. Takes calendar type, e.g. 'us' (default), 'jp' or 'eu', and iterations to save (defaults to 5) as optional parameters."
+
     @Param var calendarFormat: String?
     @Param var iterationsToSave: String?
 }
