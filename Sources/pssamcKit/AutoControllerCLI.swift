@@ -11,7 +11,8 @@ public struct AutoControllerCLI {
                       version: version,
                       description: description,
                       commands: [BerryFarmerCommand(),
-                                 TurboACommand()])
+                                 TurboACommand(),
+                                 AutoLotoCommand()])
 
         return cli
     }
